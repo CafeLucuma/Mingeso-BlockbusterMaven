@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.1" timestamp="2016-12-11T12:25:02.725">
+<file name="/home/oscar/NetBeansProjects/BlockbusterMaven/BlockbusterMaven-ejb/src/main/java/com/me/bean/AbstractFacade.java">
+<violation beginline="17" endline="17" begincolumn="22" endcolumn="32" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="com.me.bean" class="AbstractFacade" variable="entityClass" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="37" endline="37" begincolumn="26" endcolumn="27" rule="ShortVariable" ruleset="Naming" package="com.me.bean" class="AbstractFacade" method="find" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="42" endline="42" begincolumn="50" endcolumn="51" rule="ShortVariable" ruleset="Naming" package="com.me.bean" class="AbstractFacade" method="findAll" variable="cq" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like cq
+</violation>
+<violation beginline="48" endline="48" begincolumn="50" endcolumn="51" rule="ShortVariable" ruleset="Naming" package="com.me.bean" class="AbstractFacade" method="findRange" variable="cq" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like cq
+</violation>
+<violation beginline="50" endline="50" begincolumn="33" endcolumn="33" rule="ShortVariable" ruleset="Naming" package="com.me.bean" class="AbstractFacade" method="findRange" variable="q" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like q
+</violation>
+<violation beginline="57" endline="57" begincolumn="50" endcolumn="51" rule="ShortVariable" ruleset="Naming" package="com.me.bean" class="AbstractFacade" method="count" variable="cq" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like cq
+</violation>
+<violation beginline="58" endline="58" begincolumn="44" endcolumn="45" rule="ShortVariable" ruleset="Naming" package="com.me.bean" class="AbstractFacade" method="count" variable="rt" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like rt
+</violation>
+<violation beginline="60" endline="60" begincolumn="33" endcolumn="33" rule="ShortVariable" ruleset="Naming" package="com.me.bean" class="AbstractFacade" method="count" variable="q" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like q
+</violation>
+</file>
+<file name="/home/oscar/NetBeansProjects/BlockbusterMaven/BlockbusterMaven-ejb/src/main/java/com/me/bean/ProductoFacade.java">
+<violation beginline="21" endline="21" begincolumn="27" endcolumn="28" rule="ShortVariable" ruleset="Naming" package="com.me.bean" class="ProductoFacade" variable="em" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like em
+</violation>
+<violation beginline="21" endline="21" begincolumn="27" endcolumn="28" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="com.me.bean" class="ProductoFacade" variable="em" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+</file>
+<file name="/home/oscar/NetBeansProjects/BlockbusterMaven/BlockbusterMaven-ejb/src/main/java/com/me/bean/ProductoFacadeLocal.java">
+<violation beginline="25" endline="25" begincolumn="26" endcolumn="27" rule="ShortVariable" ruleset="Naming" package="com.me.bean" class="ProductoFacadeLocal" method="find" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+</file>
+<file name="/home/oscar/NetBeansProjects/BlockbusterMaven/BlockbusterMaven-ejb/src/main/java/com/me/bean/UsuarioFacade.java">
+<violation beginline="21" endline="21" begincolumn="27" endcolumn="28" rule="ShortVariable" ruleset="Naming" package="com.me.bean" class="UsuarioFacade" variable="em" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like em
+</violation>
+<violation beginline="21" endline="21" begincolumn="27" endcolumn="28" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="com.me.bean" class="UsuarioFacade" variable="em" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+</file>
+<file name="/home/oscar/NetBeansProjects/BlockbusterMaven/BlockbusterMaven-ejb/src/main/java/com/me/bean/UsuarioFacadeLocal.java">
+<violation beginline="25" endline="25" begincolumn="25" endcolumn="26" rule="ShortVariable" ruleset="Naming" package="com.me.bean" class="UsuarioFacadeLocal" method="find" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+</file>
+<file name="/home/oscar/NetBeansProjects/BlockbusterMaven/BlockbusterMaven-ejb/src/main/java/com/me/model/Producto.java">
+<violation beginline="60" endline="60" begincolumn="20" endcolumn="37" rule="LongVariable" ruleset="Naming" package="com.me.model" class="Producto" variable="productdescription" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like productdescription
+</violation>
+<violation beginline="69" endline="69" begincolumn="20" endcolumn="39" rule="LongVariable" ruleset="Naming" package="com.me.model" class="Producto" variable="availablecityproduct" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like availablecityproduct
+</violation>
+<violation beginline="84" endline="84" begincolumn="87" endcolumn="104" rule="LongVariable" ruleset="Naming" package="com.me.model" class="Producto" method="Producto" variable="productdescription" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like productdescription
+</violation>
+<violation beginline="120" endline="120" begincolumn="46" endcolumn="63" rule="LongVariable" ruleset="Naming" package="com.me.model" class="Producto" method="setProductdescription" variable="productdescription" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like productdescription
+</violation>
+<violation beginline="144" endline="144" begincolumn="48" endcolumn="67" rule="LongVariable" ruleset="Naming" package="com.me.model" class="Producto" method="setAvailablecityproduct" variable="availablecityproduct" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like availablecityproduct
+</violation>
+</file>
+</pmd>
