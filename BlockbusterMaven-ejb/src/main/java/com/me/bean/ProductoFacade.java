@@ -6,6 +6,7 @@
 package com.me.bean;
 
 import com.me.model.Producto;
+import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -27,6 +28,12 @@ public class ProductoFacade extends AbstractFacade<Producto> implements Producto
 
     public ProductoFacade() {
         super(Producto.class);
+    }
+    
+    @Override
+    public List<Producto> findAll()
+    {
+        return em.createNamedQuery("Producto.findAll").getResultList();
     }
     
 }

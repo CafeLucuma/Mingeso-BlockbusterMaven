@@ -30,7 +30,7 @@ public class ProductoServlet extends HttpServlet {
     
     
     
-    /**
+    /*
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
      *
@@ -44,7 +44,7 @@ public class ProductoServlet extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             request.setAttribute("allProductos", productoFacade.findAll());
-            request.getRequestDispatcher("productosinfo.jsp").forward(request, response);
+            request.getRequestDispatcher("ProductoJsp.jsp").forward(request, response);
             
         }
     }

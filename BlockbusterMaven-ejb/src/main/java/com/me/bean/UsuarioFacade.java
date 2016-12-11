@@ -6,6 +6,7 @@
 package com.me.bean;
 
 import com.me.model.Usuario;
+import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -27,6 +28,31 @@ public class UsuarioFacade extends AbstractFacade<Usuario> implements UsuarioFac
 
     public UsuarioFacade() {
         super(Usuario.class);
+    }
+    
+    @Override
+    public List<Usuario> findAll()
+    {
+        return em.createNamedQuery("Usuario.findAll").getResultList();
+    }
+    
+    @Override
+    public List<Usuario> login(String name, String pass)
+    {
+        return em.createNamedQuery("Usuario.login").setParameter("username", name)
+                .setParameter("password", pass).getResultList();
+    }
+
+    @Override
+    public void create(Usuario usuario)
+    {
+        em.persist(usuario);
+    }
+    
+    @Override
+    public Usuario find(Object id)
+    {
+        return em.find(Usuario.class, id);
     }
     
 }
