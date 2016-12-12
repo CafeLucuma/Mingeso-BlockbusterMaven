@@ -16,7 +16,6 @@ import static org.junit.Assert.*;
  * @author oscar
  */
 public class UsuarioTest {
-    EntityManager em;
     
     public UsuarioTest() {
     }
@@ -36,10 +35,9 @@ public class UsuarioTest {
     public void testGetUserid() {
         System.out.println("getUserid");
         Usuario instance = new Usuario(4, "pepe", "asdasd123");
-        em.persist(instance);
         System.out.println("nombre:"+instance.getUsername());
         Integer result = instance.getUserid();
-        assertNotNull(instance);
+        assertEquals("pepe", instance.getUsername());
         // TODO review the generated test code and remove the default call to fail.
     }
 
