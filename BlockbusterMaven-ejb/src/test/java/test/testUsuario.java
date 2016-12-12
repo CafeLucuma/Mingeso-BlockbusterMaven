@@ -6,6 +6,11 @@ package test;
  * and open the template in the editor.
  */
 
+import com.me.bean.UsuarioFacade;
+import com.me.bean.UsuarioFacadeLocal;
+import com.me.model.Usuario;
+import java.util.List;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -18,11 +23,12 @@ import static org.junit.Assert.*;
  * @author Chocho
  */
 public class testUsuario {
-    
+    UsuarioFacade usuario;
     public testUsuario() {
+        usuario = new UsuarioFacade();
     }
     
-    @BeforeClass
+    /*@BeforeClass
     public static void setUpClass() {
     }
     
@@ -37,10 +43,18 @@ public class testUsuario {
     @After
     public void tearDown() {
     }
-
+*/
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
     
     @Test
-    public void hello() {}
+    public void testGetAllUsuarios() {
+        Usuario user = usuario.find(1);
+        assertNotNull(user);
+    }
+    
+    /*@Test
+    public void testGetPasswords(){
+        
+    }*/
 }

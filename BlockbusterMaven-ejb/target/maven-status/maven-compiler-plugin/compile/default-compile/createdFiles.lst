@@ -1,0 +1,9 @@
+com\me\bean\AbstractFacade.class
+com\me\bean\ProductoFacadeLocal.class
+com\me\model\Producto.class
+com\me\bean\UsuarioFacade.class
+com\me\model\Usuario.class
+com\me\model\Usuario_.class
+com\me\bean\ProductoFacade.class
+com\me\model\Producto_.class
+com\me\bean\UsuarioFacadeLocal.class

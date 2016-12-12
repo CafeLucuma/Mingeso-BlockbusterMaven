@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.5.1" timestamp="2016-12-11T14:38:22.523">
-<file name="/home/oscar/NetBeansProjects/BlockbusterMaven/BlockbusterMaven-web/src/main/java/com/me/controller/ProductoServlet.java">
+<pmd version="5.5.1" timestamp="2016-12-11T21:37:26.463">
+<file name="C:\Users\Chocho\Documents\NetBeansProjects\Mingeso-BlockbusterMaven\BlockbusterMaven-web\src\main\java\com\me\controller\ProductoServlet.java">
 <violation beginline="28" endline="28" begincolumn="33" endcolumn="46" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="com.me.controller" class="ProductoServlet" variable="productoFacade" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
 </violation>
 </file>
-<file name="/home/oscar/NetBeansProjects/BlockbusterMaven/BlockbusterMaven-web/src/main/java/com/me/controller/UsuarioServlet.java">
+<file name="C:\Users\Chocho\Documents\NetBeansProjects\Mingeso-BlockbusterMaven\BlockbusterMaven-web\src\main\java\com\me\controller\UsuarioServlet.java">
 <violation beginline="28" endline="28" begincolumn="32" endcolumn="44" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="com.me.controller" class="UsuarioServlet" variable="usuarioFacade" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
 Found non-transient, non-static member. Please mark as transient or provide accessors.
 </violation>
