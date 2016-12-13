@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.me.bean.ProductoFacadeTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.096 sec <<< FAILURE!
-testFindAll(com.me.bean.ProductoFacadeTest)  Time elapsed: 0.024 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.764 sec <<< FAILURE!
+testFindAll(com.me.bean.ProductoFacadeTest)  Time elapsed: 0.195 sec  <<< ERROR!
 javax.ejb.EJBException: No EJBContainer provider available: no provider names had been found.
 	at javax.ejb.embeddable.EJBContainer.reportError(EJBContainer.java:216)
 	at javax.ejb.embeddable.EJBContainer.createEJBContainer(EJBContainer.java:146)

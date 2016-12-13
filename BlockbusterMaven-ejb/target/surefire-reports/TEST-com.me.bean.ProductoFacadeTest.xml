@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.me.bean.ProductoFacadeTest" time="0.096" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="com.me.bean.ProductoFacadeTest" time="0.783" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -60,7 +60,7 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.me.bean.ProductoFacadeTest" name="testFindAll" time="0.024">
+  <testcase classname="com.me.bean.ProductoFacadeTest" name="testFindAll" time="0.195">
     <error message="No EJBContainer provider available: no provider names had been found." type="javax.ejb.EJBException">javax.ejb.EJBException: No EJBContainer provider available: no provider names had been found.
 	at javax.ejb.embeddable.EJBContainer.reportError(EJBContainer.java:216)
 	at javax.ejb.embeddable.EJBContainer.createEJBContainer(EJBContainer.java:146)
