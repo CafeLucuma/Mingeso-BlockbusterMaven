@@ -111,7 +111,7 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Bienvenido a BlockBuster</h1>
+                <h1 id="homeHeading">Bienvenido a BlockBuster (U de Santtiago)</h1>
                 <hr>
                 <p>Aquí podrás encontrar todo tipo de películas para comprar y arrendar, además de publicar tus propias películas para la venta.</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Mas Información</a>
