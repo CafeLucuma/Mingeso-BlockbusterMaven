@@ -36,7 +36,6 @@
                <execution>
                   <phase>test</phase>
                   <goals>
-                     <goal>test</goal>
                      <goal>pmd</goal>
                      <goal>cpd</goal>
                      <goal>cpd-check</goal>
