@@ -61,7 +61,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Shop Item - Start Bootstrap Template</title>
+    <title>BlockBuster - Compra y Venta de Películas</title>
 
 
     <!-- Bootstrap Core CSS -->
@@ -94,21 +94,6 @@
                 </button>
                 <a class="navbar-brand" href="#">Bienvenido ${sessionScope.welcome.username}</a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
@@ -119,11 +104,12 @@
         <div class="row">
 
             <div class="col-md-3">
-                <p class="lead">Shop Name</p>
+                <p class="lead">Blockbuster</p>
                 <div class="list-group">
-                    <a href="#" class="list-group-item active">Category 1</a>
-                    <a href="#" class="list-group-item">Category 2</a>
-                    <a href="#" class="list-group-item">Category 3</a>
+                    <a href="#" class="list-group-item">Acción</a>
+                    <a href="#" class="list-group-item">Ciencia Ficción</a>
+                    <a href="#" class="list-group-item">Comedia</a>
+                    <a href="#" class="list-group-item active">Drama</a>
                 </div>
             </div>
 
@@ -141,14 +127,14 @@
                         <p>Telefono Aunciante: ${p.advertiserphone}</p>
                     </div>
                     <div class="ratings">
-                        <p class="pull-right">3 reviews</p>
+                        <p class="pull-right">3 comentarios</p>
                         <p>
                             <span class="glyphicon glyphicon-star"></span>
                             <span class="glyphicon glyphicon-star"></span>
                             <span class="glyphicon glyphicon-star"></span>
                             <span class="glyphicon glyphicon-star"></span>
                             <span class="glyphicon glyphicon-star-empty"></span>
-                            4.0 stars
+                            4.0 estrellas
                         </p>
                     </div>
                 </div>
@@ -156,7 +142,7 @@
                 <div class="well">
 
                     <div class="text-right">
-                        <a class="btn btn-success">Leave a Review</a>
+                        <a class="btn btn-success">Deja un comentario</a>
                     </div>
 
                     <hr>
@@ -168,9 +154,9 @@
                             <span class="glyphicon glyphicon-star"></span>
                             <span class="glyphicon glyphicon-star"></span>
                             <span class="glyphicon glyphicon-star-empty"></span>
-                            Anonymous
-                            <span class="pull-right">10 days ago</span>
-                            <p>This product was great in terms of quality. I would definitely buy another!</p>
+                            Anónimo
+                            <span class="pull-right">Hace 10 días</span>
+                            <p>Me encantó la película, y estaba en perfecto estado</p>
                         </div>
                     </div>
 
@@ -183,8 +169,8 @@
                             <span class="glyphicon glyphicon-star"></span>
                             <span class="glyphicon glyphicon-star"></span>
                             <span class="glyphicon glyphicon-star-empty"></span>
-                            Anonymous
-                            <span class="pull-right">12 days ago</span>
+                            Anónimo
+                            <span class="pull-right">Hace 12 días</span>
                             <p>I've alredy ordered another one!</p>
                         </div>
                     </div>
@@ -198,8 +184,8 @@
                             <span class="glyphicon glyphicon-star"></span>
                             <span class="glyphicon glyphicon-star"></span>
                             <span class="glyphicon glyphicon-star-empty"></span>
-                            Anonymous
-                            <span class="pull-right">15 days ago</span>
+                            Anónimo
+                            <span class="pull-right">Hace 15 días</span>
                             <p>I've seen some better than this, but not at this price. I definitely recommend this item.</p>
                         </div>
                     </div>
@@ -221,7 +207,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Privacy Policy - Copyright &copy; 2016 Digimedia.com, L.P.</p>
                 </div>
             </div>
         </footer>

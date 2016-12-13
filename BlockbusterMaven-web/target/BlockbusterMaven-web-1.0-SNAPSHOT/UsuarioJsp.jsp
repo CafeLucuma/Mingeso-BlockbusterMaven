@@ -40,7 +40,6 @@
 </html>
 
 -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -52,7 +51,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>BlockBuster - Compra y Venta de Películas</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -87,23 +86,20 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">BlockBuster</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">Acerca</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">Iniciar Sesión</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -115,10 +111,10 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
+                <h1 id="homeHeading">Bienvenido a BlockBuster</h1>
                 <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <p>Aquí podrás encontrar todo tipo de películas para comprar y arrendar, además de publicar tus propias películas para la venta.</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Mas Información</a>
             </div>
         </div>
     </header>
@@ -127,10 +123,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h2 class="section-heading">¡Tenemos lo que necesitas!</h2>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                    <p class="text-faded">Para comenzar a utilizar la página debes primero crear una cuenta, si es que no la posees. Luego deberás ingresar a dicha cuenta, y estas listo para comenzar a comprar y publicar productos.</p>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Iniciar Sesión</a>
                 </div>
             </div>
         </div>
@@ -140,20 +136,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Login</h2>
+                    <h2 class="section-heading">Iniciar Sesión</h2>
                     <hr class="primary">
                 </div>
             </div>
         </div>
         <form action="main" method="post">
-            <div class="container text-center">
+            <div class="container text-center login">
                 <input type="text" placeholder="Ingrese su Nombre"  name="userName">
             </div>
-            <div class="container text-center">
-                <input type="password" placeholder="Ingrese su Password" name="password">
+            <div class="container text-center login">
+                <input type="password text-center" placeholder="Ingrese su Password" name="password">
             </div>
-            <div class="container text-center">
-                <input type="submit" name="submit" value="Submit">
+            <div class="container text-center login">
+                <input id="access" class="btn" type="submit" name="submit" value="Acceder">
             </div>
         </form>
     </section>
@@ -167,10 +163,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Ficcion/Comedia
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Pulp Fiction
                                 </div>
                             </div>
                         </div>
@@ -182,10 +178,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Ciencia Ficción
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    El Origen
                                 </div>
                             </div>
                         </div>
@@ -197,10 +193,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Acción/Ciencia Ficción
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Matrix
                                 </div>
                             </div>
                         </div>
@@ -212,10 +208,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Ciencia Ficción
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    El Marciano
                                 </div>
                             </div>
                         </div>
@@ -227,10 +223,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Ciencia Ficción
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Interestelar
                                 </div>
                             </div>
                         </div>
@@ -242,10 +238,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Ficción Ucrónica
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Bastardos Sin Gloria
                                 </div>
                             </div>
                         </div>
@@ -255,22 +251,14 @@
         </div>
     </section>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
-            </div>
-        </div>
-    </aside>
 
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <h2 class="section-heading">Contáctenos</h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p>Si tienes alguna duda, puedes llamarnos directamente, o enviarnos un correo, responderemos lo antes posible.</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
@@ -278,7 +266,7 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <p><a href="mailto:your-email@your-domain.com">feedback@blockbuster.com</a></p>
                 </div>
             </div>
         </div>
